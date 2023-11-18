@@ -1,0 +1,197 @@
+
+
+header{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar{
+    background-color:#1a187a;
+}
+.left_section{
+    gap: 500px;
+}
+.link_section{
+    margin-right: 200px;
+}
+.pic{
+    width: 305px;
+    padding-left: 100px;
+    padding-top: 7px;
+    
+}
+
+/* ....carousel_section */
+
+.carousel_section{
+    /* background-image:url(./img/v904-nunny-012\ 1.png); */
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner_one{
+    margin-top:100px;
+}
+.banner_two{
+    margin-top:100px;
+}
+
+.iphone{
+    width: 700px;
+}
+
+.right_two img{
+    width: 200px;   
+}
+
+.left h1{
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left_two h1{
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----mobile-- */
+@media only screen and (max-width: 600px)
+ {
+    .form_section{
+        margin-top: 20px;
+    }
+    .right img{
+        width: 200px; 
+    }
+    .c_box img{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 241, 241);
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+    .fa-heart{
+        margin-right: 15px;
+    }
+    .second_banner_img{
+        margin-left:20px
+    }
+    .footer_logo{
+        margin-left: -60px;
+    }
+
+ }
+
+
+
+/* -------Desktop----- */
+@media only screen and (min-width: 768px)
+ {
+    .navbar-nav{
+        margin-left: 200px;
+    }
+    .form_section{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+   
+    .banner_two{ 
+        margin-left:190px;}
+        .banner_two img{
+            width: 700px;
+        }
+        
+    .second_banner{
+        height: 100vh;
+    }
+    .c_box img{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 241, 241);
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+ }
+/* ----- */
+
+.samsung{
+    font-size: 20px;
+}
+
+.box h1{
+
+    font-weight: bold;
+    font-family:'poppins', sans-serif ;
+}
+.box_two{
+    background-color: rgb(144, 212, 189);
+       
+}
+.box_two h1{
+    font-weight: bold;
+    margin-left:20px ;
+}
+.box_three{
+    background: #EDEDED;
+}
+.box_three h1{
+    font-weight: bold;
+    font-family:'poppins', sans-serif ;
+}
+
+
+.browse{
+    height: 100px;
+}
+
+
+
+/* ..prodcust.... */
+
+.item img{
+    width:200px;
+}
+.item{
+    width: 200px;
+    text-align: center;
+    margin:0px 50px;
+    background-color: aliceblue;
+   
+}
+
+.dollar{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+.card_three img{
+    width: 254px;
+    margin-left: 20px;
+   
+}
+
+/* ..........second_banner start...... */
+.second_banner{
+    /* height: 100vh; */
+    background-color:#958ad4;
+}
+
+.second_banner_img img{
+    width: 300px;
+    height: 300px;
+}
+.second_banner_middle h1{
+    font-size: 90px;
+    font-weight: bold;
+
+}
+.footer_logo img{
+    width: 370px;
+    padding-left: 100px;
+    padding-top: 7px;
+}
+.footer_icon_section i{
+    font-size: 40px;
+    margin: 5px;
+}
